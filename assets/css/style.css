@@ -1,0 +1,23 @@
+/*general style */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+
+
+/*header*/
+header {
+    background-color: orange;
+}
+/*main*/
+main {
+    background-color: aliceblue;
+}
+/*footer*/
+
+footer {
+    background-color:brown ;
+}
