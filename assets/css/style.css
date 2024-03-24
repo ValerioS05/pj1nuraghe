@@ -22,17 +22,77 @@ body {
 /*header*/
 header {
     background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
     padding: 0rem;
     position:fixed;
     z-index: 99;
     width: 100%;
     box-shadow:0 3px 3px black;
 }
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    width: 75%;
+}
+
+header a {
+    text-decoration:none;
+    color:inherit;
+}
+/*nav bar*/
+#bar {
+    list-style-type: none;
+    letter-spacing: 3px;
+}
+
+#bar > li {
+    margin-bottom: 0.5em;
+}
+/*class for active page*/
+.atm {
+    border: 0.5px solid black ;
+}
+
+nav{
+    position: absolute;
+    display:none;
+    box-shadow: 0 3px 3px black;
+    background-color: white;
+    width: 100%;
+    left:0%;
+    padding:0 1rem;
+    top:100%;
+
+}
+
+/*toogle nav bar */
+
+#bar-tog:checked~nav {
+    display: block;
+}
+
+
+#bar-tog {
+    display: none;
+}
+
+.bartog-l {
+    font-size: 2rem;
+    position: absolute;
+    top:0.5em;
+    right:0.4em;
+}
 /*main*/
 main {
     background-color: aliceblue;
     /*take any surplus space*/
     flex: 1 0 auto;
+    margin-top: 74px;
 }
 /*footer*/
 
