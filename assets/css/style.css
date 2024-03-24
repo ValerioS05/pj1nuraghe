@@ -21,7 +21,12 @@ body {
 
 /*header*/
 header {
-    background-color: orange;
+    background-color: white;
+    padding: 0rem;
+    position:fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow:0 3px 3px black;
 }
 /*main*/
 main {
