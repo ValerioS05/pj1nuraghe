@@ -22,13 +22,14 @@ h1,h2,h3 {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    
+      
 }
+
 
 
 /*header*/
 header {
-    background-color: white;
+    background-color: rgb(210, 78, 78);
     display: flex;
     justify-content:space-between;
     align-items: baseline;
@@ -61,7 +62,7 @@ nav{
     position: absolute;
     display:none;
     box-shadow: 0 3px 3px black;
-    background-color: white;
+    background-color:rgb(210, 78, 78);;
     width: 100%;
     left:0%;
     padding:0 1rem;
@@ -117,6 +118,26 @@ main {
     background-color: rgba(236, 236, 242, 0.6);
 }
 
+/*main content section*/
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#main-content  h2,#main-content h3 {
+    text-align: center;
+    background-color: rgb(235, 66, 66);
+    
+}
+
+
+
+
+
+
+
 /*footer*/
 
 footer {
@@ -155,11 +176,11 @@ footer {
         line-height: 70px;
         margin: 0 4rem;
     }
-
+    /* main */
     main {
         margin-top: 72px;
     }
-
+    /*hero image text*/
     #text-image {
         position:absolute;
         bottom:120px;
@@ -168,4 +189,7 @@ footer {
         text-align: center;
         background-color: rgba(236, 236, 242, 0.6);
     }
+
+    /*picture content section */
+    
 }
