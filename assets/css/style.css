@@ -18,6 +18,13 @@ body {
     
 }
 
+h1,h2,h3 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+
 
 /*header*/
 header {
@@ -32,12 +39,7 @@ header {
     box-shadow:0 3px 3px black;
 }
 
-h1 {
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    
-}
+
 
 
 header a {
@@ -91,11 +93,30 @@ nav{
 }
 /*main*/
 main {
-    background-color: aliceblue;
     /*take any surplus space*/
     flex: 1 0 auto;
     margin-top: 40px;
 }
+
+/*hero image */
+
+#hero-image {
+    width:100%;
+    height:500px;
+    background: url(../images/hero-imagep1.jpg) top center/cover no-repeat;
+    position:relative;
+}
+
+
+#text-image {
+    position:absolute;
+    bottom:120px;
+    left: 4rem;
+    width: 60%;
+    text-align: center;
+    
+}
+
 /*footer*/
 
 footer {
