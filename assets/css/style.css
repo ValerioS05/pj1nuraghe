@@ -114,7 +114,7 @@ main {
     left: 4rem;
     width: 60%;
     text-align: center;
-    
+    background-color: rgba(236, 236, 242, 0.6);
 }
 
 /*footer*/
@@ -158,5 +158,14 @@ footer {
 
     main {
         margin-top: 72px;
+    }
+
+    #text-image {
+        position:absolute;
+        bottom:120px;
+        left: 40%;
+        width: 40%;
+        text-align: center;
+        background-color: rgba(236, 236, 242, 0.6);
     }
 }
