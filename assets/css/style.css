@@ -228,7 +228,7 @@ main {
 }
 
 /*nuraxi page */
-#about-nuraxi h2{
+#about h2{
     text-align: center;
     background-color: rgb(111, 114, 115);  
     color: white;
@@ -239,7 +239,7 @@ main {
     
 }
 
-#about-nuraxi {
+#about {
     text-align: center;
    
 }
@@ -321,7 +321,7 @@ footer {
         flex-direction: row;
     }
 
-    #about-nuraxi {
+    #about {
         float:right;
         margin:0 20px;
     }
