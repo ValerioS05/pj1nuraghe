@@ -174,16 +174,40 @@ main {
     border-top: 2px double black;
     border-bottom: 2px double black;
 }
+/*main content section for nuraxi.html*/
 
+#sunuraxi {
+    width:100%;
+    box-shadow: 0 2px 2px black;
+}
+
+/*timeline*/
+#timeline {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#timegrid h2 {
+    text-align: center;
+    padding:20px 20px;
+}
+.grid {
+    border: 1px double black;
+    background: rgba(183, 186, 188, 0.658);
+    width:100%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px 0;
+    min-width:100px;
+}
 
 /*footer*/
 
 footer {
     background-color:rgb(146, 141, 141);
-    border-bottom:2px double black;
-    border-left:2px double black;
-    border-right:2px double black;
+    border:2px double black;
     color: black;
+    margin-top: 1px;
 }
 
 
@@ -236,5 +260,10 @@ footer {
         margin: 0 20px;
         align-items: center;
         padding: 0 25rem;
+    }
+
+    #sunuraxi {
+        width:100%;
+        height:650px;
     }
 }
