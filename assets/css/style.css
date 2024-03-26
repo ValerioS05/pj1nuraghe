@@ -18,7 +18,7 @@ body {
     
 }
 
-h1,h2,h3 {
+h1,h2,h3, {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -115,7 +115,7 @@ main {
     left: 4rem;
     width: 60%;
     text-align: center;
-    background-color: rgba(236, 236, 242, 0.6);
+    background-color: rgba(74, 178, 243, 0.6);
 }
 
 /*main content section*/
@@ -128,14 +128,24 @@ main {
 
 #main-content  h2,#main-content h3 {
     text-align: center;
-    background-color: rgb(235, 66, 66);
+    background-color: rgb(66, 170, 235);
     
 }
 
 
+#nur-type {
+    margin-top: 15px;
+}
 
+#nur-li {
+    margin-top: 15px;
+}
 
-
+.nurname {
+    margin-top: 15px;
+    background-color: rgb(66, 170, 235);
+    font-size: 110%;
+}
 
 
 /*footer*/
@@ -187,9 +197,7 @@ footer {
         left: 40%;
         width: 40%;
         text-align: center;
-        background-color: rgba(236, 236, 242, 0.6);
     }
 
-    /*picture content section */
     
 }
