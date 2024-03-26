@@ -30,7 +30,7 @@ h1,h2,h3, {
 
 /*header*/
 header {
-    background-color: rgb(210, 78, 78);
+    background-color: rgb(146, 141, 141);
     display: flex;
     justify-content:space-between;
     align-items: baseline;
@@ -63,7 +63,7 @@ nav{
     position: absolute;
     display:none;
     box-shadow: 0 3px 3px black;
-    background-color:rgb(210, 78, 78);;
+    background-color:rgb(146, 141, 141);
     width: 100%;
     left:0%;
     padding:0 1rem;
@@ -92,6 +92,7 @@ nav{
 /*class for active page*/
 .atm {
     border: 0.5px solid black ;
+    padding: 0 3px;
 }
 /*main*/
 main {
@@ -116,8 +117,10 @@ main {
     left: 4rem;
     width: 60%;
     text-align: center;
-    background-color: rgba(74, 178, 243, 0.6);
-    border: 2px solid black;
+    background-color: rgba(176, 179, 181, 0.4);
+    border: 2px double black;
+    box-shadow: 3px 4px 2px black;
+    border-radius: 20%;
 }
 
 /*main content section*/
@@ -126,19 +129,22 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 2px solid black;
+    border: 2px double black;
 }
 
 #main-content  h2,#main-content h3 {
     text-align: center;
-    background-color: rgb(66, 170, 235);
+    background-color: rgb(111, 114, 115);
     padding-top: 5px;  
+    color: white;
     
 }
 
 #main-content h3 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px double black;
+    margin-bottom: 4px;
 }
+
 
 #nur-type {
     margin-top: 15px;
@@ -150,10 +156,11 @@ main {
 
 .nurname {
     margin-top: 15px;
-    background-color: rgb(66, 170, 235);
+    background-color: rgb(111, 114, 115);
     font-size: 110%;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px double black;
+    border-bottom: 2px double black;
+    color:white;
 }
 
 #rank-nur > ol{
@@ -164,17 +171,19 @@ main {
 }
 
 #rank-nur h3 {
-    border-top: 2px solid black;
+    border-top: 2px double black;
+    border-bottom: 2px double black;
 }
 
 
 /*footer*/
 
 footer {
-    background-color:brown ;
-    border-bottom:2px solid black;
-    border-left:2px solid black;
-    border-right:2px solid black;
+    background-color:rgb(146, 141, 141);
+    border-bottom:2px double black;
+    border-left:2px double black;
+    border-right:2px double black;
+    color: white;
 }
 
 
