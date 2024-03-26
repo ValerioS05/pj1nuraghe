@@ -182,24 +182,37 @@ main {
 }
 
 /*timeline*/
-#timeline {
-    display: flex;
-    flex-wrap: wrap;
-    
+
+#timewrap {
+    margin: 40px 10px;
+    width: 270px;
+    border-left: 3px solid black;
+    padding: 0 20px 0 30px;
 }
-#timegrid h2 {
-    text-align: center;
-    padding:20px 20px;
-}
-.grid {
+
+.wrap-active {
+    background-color: rgba(146, 152, 158, 0.817);
+    padding 10px 25px;
+    font-size: 15px;
     border: 1px double black;
-    background: rgba(183, 186, 188, 0.658);
-    width:100%;
-    text-align: center;
-    padding: 10px 10px;
-    margin: 20px 0;
-    min-width:100px;
+    position: relative;
+    height:200px;
+    margin-bottom: 20px;
+    color:  black;
+    border-radius: 0 50px 0 50px;
+
 }
+
+.wrap-non {
+    background-color: rgba(146, 152, 158, 0.817);
+    padding 10px 25px;
+    font-size: 15px;
+    border: 1px double black;
+    position: relative;
+    height:50px;
+    margin-bottom: 20px;
+    color: black;
+    border-radius: 0 20px 0 20px;
 
 /*footer*/
 
