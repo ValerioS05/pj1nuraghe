@@ -22,7 +22,8 @@ h1,h2,h3, {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-      
+    border-style: 1px double black;
+    padding: 10px 10px;
 }
 
 
@@ -116,6 +117,7 @@ main {
     width: 60%;
     text-align: center;
     background-color: rgba(74, 178, 243, 0.6);
+    border: 2px solid black;
 }
 
 /*main content section*/
@@ -124,14 +126,19 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    border: 2px solid black;
 }
 
 #main-content  h2,#main-content h3 {
     text-align: center;
     background-color: rgb(66, 170, 235);
+    padding-top: 5px;  
     
 }
 
+#main-content h3 {
+    border-bottom: 2px solid black;
+}
 
 #nur-type {
     margin-top: 15px;
@@ -145,6 +152,19 @@ main {
     margin-top: 15px;
     background-color: rgb(66, 170, 235);
     font-size: 110%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#rank-nur > ol{
+    list-style-type: decimal;
+    margin: 0 20px;
+    align-items: center;
+    padding: 0 3.5rem;
+}
+
+#rank-nur h3 {
+    border-top: 2px solid black;
 }
 
 
@@ -152,6 +172,9 @@ main {
 
 footer {
     background-color:brown ;
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
 }
 
 
@@ -199,5 +222,10 @@ footer {
         text-align: center;
     }
 
-    
+    #rank-nur > ol{
+        list-style-type: decimal;
+        margin: 0 20px;
+        align-items: center;
+        padding: 0 25rem;
+    }
 }
