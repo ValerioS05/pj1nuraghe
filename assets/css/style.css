@@ -188,19 +188,22 @@ main {
     width: 270px;
     border-left: 3px solid black;
     padding: 0 20px 0 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .wrap-active {
-    background-color: rgba(146, 152, 158, 0.817);
-    padding 10px 25px;
+    padding: 10px 10px;
     font-size: 15px;
     border: 1px double black;
     position: relative;
     height:200px;
+    width: 230px;
     margin-bottom: 20px;
-    color:  black;
+    color:  white;
     border-radius: 0 50px 0 50px;
-
+    background: url(../images/pexels-life-of-pix-8892.jpg) no-repeat center/cover;
+    border-top: 5px solid black;
 }
 
 .wrap-non {
@@ -210,9 +213,27 @@ main {
     border: 1px double black;
     position: relative;
     height:50px;
+    width: 200px;
     margin-bottom: 20px;
-    color: black;
+    color: white;
     border-radius: 0 20px 0 20px;
+    background: url(../images/pexels-life-of-pix-8892.jpg) no-repeat center/cover;
+}
+
+/*nuraxi page */
+#about-nuraxi h2{
+    text-align: center;
+    background-color: rgb(111, 114, 115);  
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+#about-nuraxi {
+    text-align: center;
+}
+
 
 /*footer*/
 
