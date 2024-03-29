@@ -169,9 +169,11 @@ main {
     border-bottom: 2px double black;
     color: white;
 }
+
 #rank-nur ul {
     list-style-type: none;
 }
+
 #rank-nur a {
     margin: 0 20px;
     padding: 0 3.5rem;
@@ -255,12 +257,12 @@ main {
 }
 
 #about ul {
-    padding:10px;
-    margin:10px;
+    padding: 10px;
+    margin: 10px;
     list-style-type: none;
 }
 
-a li{
+a li {
     margin-bottom: 10px;
 }
 
@@ -323,7 +325,7 @@ footer {
     }
 
     #rank-nur>ul {
-        
+
         margin: 0 20px;
         align-items: center;
         padding: 0 25rem;
@@ -331,7 +333,7 @@ footer {
 
     #nurpic {
         max-width: 100%;
-        height: 800px;
+        height: auto;
     }
 
 
