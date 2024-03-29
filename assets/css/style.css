@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     color: black;
     font-family: "Open Sans", sans-serif;
-
+    background-color: rgba(176, 179, 181, 0.34);
 }
 
 h1,
@@ -28,9 +28,12 @@ text-transform: uppercase;
 letter-spacing: 3px;
 border-style: 1px double black;
 padding: 10px 10px;
+
 }
 
-
+p {
+    margin:10px;
+}
 
 /*header*/
 header {
@@ -142,7 +145,7 @@ main {
 #main-content h3 {
     text-align: center;
     background-color: rgb(111, 114, 115);
-    padding-top: 5px;
+    padding: 7px;
     color: white;
 
 }
@@ -150,6 +153,7 @@ main {
 #main-content h3 {
     border-bottom: 2px double black;
     margin-bottom: 4px;
+    box-shadow: 0 4px 4px black;
 }
 
 
@@ -160,6 +164,20 @@ main {
 #nur-li {
     margin-top: 15px;
 }
+
+#nur-li dt {
+    margin: 10px 0px;
+}
+
+#nur-li dd {
+    margin: 15px 5px;
+}
+
+.img-dd {
+    width:100%;
+    box-shadow: 0 0 10px black;
+}
+
 
 .nurname {
     margin-top: 15px;
@@ -176,9 +194,9 @@ main {
 
 #rank-nur a {
     margin: 0 20px;
-    padding: 0 3.5rem;
+    padding: 2px 3px;
     width: 100px;
-
+    display: inline-block;
 }
 
 #rank-nur h3 {
@@ -186,6 +204,16 @@ main {
     border-bottom: 2px double black;
 }
 
+a li {
+    margin-bottom: 10px;
+    color:blue;
+}
+
+a li:hover {
+    color:rgb(243, 45, 6);
+    background-color: white;
+    border: 2px double black;
+}
 /*main content section for nuraxi.html*/
 
 #nurpic {
@@ -239,20 +267,21 @@ main {
     padding: 0 10px 0 10px;
 }
 
-/*nuraxi/sarbana/losa page */
+/*nuraxi/sarbana/losa page and video*/
 #about h2 {
     text-align: center;
     background-color: rgb(111, 114, 115);
     color: white;
     width: 100%;
     padding: 10px 0;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0px;
     border: 1px double black;
 
 }
 
 #about {
     text-align: center;
+    margin-left: 12px;
 
 }
 
@@ -262,8 +291,64 @@ main {
     list-style-type: none;
 }
 
-a li {
+
+
+
+/*facts page*/
+
+
+#ten-facts {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#ten-facts h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(111, 114, 115);
+    color: #f9f9f9;
+}
+
+#ten-facts p {
+    text-align: center;
+}
+
+#ten-facts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ten-facts li {
     margin-bottom: 10px;
+    border: 1px double black;
+    border-radius: 20%;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*video facts page */
+#videosec {
+    margin-top: 37px;
+}
+
+#videosec h2 {
+    background-color: rgb(111, 114, 115);
+    color: #f9f9f9;
+    margin: 5px 0;
+    border: 1px double black;
+    text-align: center;
+
+}
+
+#nurvideo {
+    margin-top: 37px;
+    padding: 5px 2px;
+    box-shadow: 0px 0 10px black;
 }
 
 
@@ -326,9 +411,9 @@ footer {
 
     #rank-nur>ul {
 
-        margin: 0 20px;
+        margin: 10px 20px;
         align-items: center;
-        padding: 0 25rem;
+        padding: 0 10px;
     }
 
     #nurpic {
@@ -349,5 +434,12 @@ footer {
     #about {
         float: right;
         margin: 0 20px;
+    }
+
+    #nurvideo {
+        max-width: 750px;
+        display: block;
+        margin: 90px auto;
+        border: 10px double black;
     }
 }
