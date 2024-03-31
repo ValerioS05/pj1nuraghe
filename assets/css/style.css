@@ -230,7 +230,7 @@ a li:hover {
     display: flex;
     flex-direction: column;
 }
-
+/*on page timeline*/
 .wrap-active {
     padding: 10px 10px;
     font-size: 15px;
@@ -246,7 +246,7 @@ a li:hover {
 
 
 }
-
+/*different page timeline */
 .wrap-non {
     background-color: rgba(146, 152, 158, 0.817);
     padding 10px 25px;
@@ -261,7 +261,7 @@ a li:hover {
     background: url(../images/pexels-life-of-pix-8892.jpg) no-repeat center/cover;
 
 }
-
+/*timeline border*/
 #left {
     border-left: 3px solid black;
     padding: 0 10px 0 10px;
@@ -359,6 +359,15 @@ footer {
     border: 2px double black;
     color: black;
     margin-top: 1px;
+}
+
+#footer-list{
+    display: flex;
+}
+
+#footer-list li {
+    list-style-type: none;
+    margin: 10px 20px;
 }
 
 
