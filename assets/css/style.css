@@ -5,9 +5,11 @@
     box-sizing: border-box;
 }
 
-html,body {
+html,
+body {
     overflow-x: hidden;
 }
+
 /*imported font Roboto,Open Sans from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -24,18 +26,17 @@ body {
 
 h1,
 h2,
-h3
-{
-font-family: "Roboto", sans-serif;
-text-transform: uppercase;
-letter-spacing: 3px;
-border-style: 1px double black;
-padding: 10px 10px;
+h3 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-style: 1px double black;
+    padding: 10px 10px;
 
 }
 
 p {
-    margin:10px;
+    margin: 10px;
 }
 
 /*header*/
@@ -180,7 +181,7 @@ main {
 }
 
 .img-dd {
-    width:100%;
+    width: 100%;
     box-shadow: 0 0 10px black;
 }
 
@@ -213,14 +214,15 @@ main {
 
 a {
     margin-bottom: 10px;
-    color:blue;
+    color: blue;
 }
 
 a li:hover {
-    color:rgb(243, 240, 240);
+    color: rgb(243, 240, 240);
     background-color: rgb(5, 5, 5);
     border: 2px double rgb(236, 231, 231);
 }
+
 /*main content section for nuraxi.html*/
 
 #nurpic {
@@ -238,6 +240,7 @@ a li:hover {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 /*on page timeline*/
 .wrap-active {
     padding: 15px 10px;
@@ -256,6 +259,7 @@ a li:hover {
 
 
 }
+
 /*different page timeline */
 .wrap-non {
     background-color: rgba(146, 152, 158, 0.817);
@@ -271,6 +275,7 @@ a li:hover {
     background: url(../images/pexels-life-of-pix-8892.jpg) no-repeat center/cover;
 
 }
+
 /*timeline border*/
 #left {
     border-left: 3px solid black;
@@ -366,54 +371,70 @@ a li:hover {
 /*sign up page*/
 
 /*form style */
-/* Container styling */
 #signup {
-    max-width: 500px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 10px auto;
     padding: 20px;
-    background-color: #f8f8f8;
+    background-image: url(../images/pexels-life-of-pix-8892.jpg);
+    background-size: cover;
+    background-position: 65%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Header styling */
-  #signup h2, #signup h3{
+    display: flex;
+    flex-direction: column;
+}
+
+#user-info {
+    background: transparent;
+    background-color: rgba(231, 222, 222, 0.65);
     text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  
-  /* Form styling */
-  
-  #signup label {
-    color: #4c4c4c;
-  }
-  
-  #signup input[type="text"],
-  #signup input[type="email"],
-  #signup input[type="password"] {
+}
+
+#signup p {
+    color: #020202;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px double #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  #signup input[type="submit"] {
+    height: auto;
+    margin: 10px 0 20px 0;
+    border: 1px solid #111010;
+    border-radius: 2px;
+    padding: 10px 5px;
+    text-align: center;
+    background-color: rgba(231, 222, 222, 0.65);
+}
+
+.input-f {
+    background: transparent;
+    color: #020202;
     width: 100%;
-    padding: 10px;
-    background-color: #8b4513;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  #signup input[type="submit"]:hover {
-    background-color: #6b3713;
-  }
-  
+    height: 25px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #111010;
+    border-radius: 2px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+#user-opt {
+    background: transparent;
+    background-color: rgba(231, 222, 222, 0.65);
+    text-align: center;
+}
+
+
+/* Header styling */
+#signup h2,
+#signup h3 {
+    text-align: center;
+    background-color: rgb(111, 114, 115);
+    padding: 7px;
+    color: white;
+    margin: 44px auto;
+    box-shadow: 5px 0 10px rgba(15, 15, 15, 0.836);
+}
+
+
+
 
 
 /*footer*/
@@ -425,17 +446,17 @@ footer {
     margin-top: 1px;
 }
 
-#footer-list{
+#footer-list {
     display: flex;
     justify-content: space-evenly;
-    padding:10px 0;
+    padding: 10px 0;
     list-style-type: none;
 }
 
 #footer-list i {
     color: rgb(27, 22, 22);
     border: 1px solid black;
-    padding:5px;
+    padding: 5px;
     font-size: 130%;
 }
 
@@ -514,7 +535,7 @@ footer {
     #about {
         float: right;
         margin: 0 20px;
-        width:500px;
+        width: 500px;
     }
 
     #videosec {
