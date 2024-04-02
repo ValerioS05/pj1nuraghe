@@ -363,6 +363,58 @@ a li:hover {
     box-shadow: 0px 0 10px black;
 }
 
+/*sign up page*/
+
+/*form style */
+/* Container styling */
+#signup {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  #signup h2, #signup h3{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Form styling */
+  
+  #signup label {
+    color: #4c4c4c;
+  }
+  
+  #signup input[type="text"],
+  #signup input[type="email"],
+  #signup input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px double #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  #signup input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #signup input[type="submit"]:hover {
+    background-color: #6b3713;
+  }
+  
+
 
 /*footer*/
 
