@@ -132,7 +132,7 @@ main {
     left: 4rem;
     width: 60%;
     text-align: center;
-    background-color: rgba(176, 179, 181, 0.4);
+    background-color: rgba(169, 171, 173, 0.838);
     border: 2px double black;
     box-shadow: 3px 4px 2px black;
     border-radius: 20%;
@@ -192,6 +192,7 @@ main {
     border-top: 2px double black;
     border-bottom: 2px double black;
     color: white;
+    padding: 10px 0;
 }
 
 #rank-nur ul {
