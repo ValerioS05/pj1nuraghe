@@ -7,9 +7,9 @@
     <!-- meta tags for search engines-->
     <meta name="keywords"
         content="nuraghe, nuragic, sardinia, sardinian history, monument, monumental, Proto Nuraghe, history, italian history,su nuraxi">
-    <meta neme="description"
+    <meta name="description"
         content="Nuraghe`s Tale, a piece of history from Sardinia. Discover the most popular monuments from this everlasting island">
-        <!-- title-->
+    <!-- title-->
     <title>Nuraghe`s</title>
     <!-- favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -36,7 +36,7 @@
             <ul id="bar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="facts.html">Facts</a></li>
-                <li><a href="signup.html" class="atm">Sign Up</a></li>
+                <li><a href="signup.html" class="atm">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -56,76 +56,59 @@
                     <input type="text" name="last-name" id="last-name" class="input-f" required>
                     <label for="mail">Email Address</label>
                     <input type="email" name="mail" id="mail" class="input-f" required>
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" class="input-f" required>
+                    <label for="message">Leave us a message</label>
+                    <br>
+                    <textarea id="message" name="message" rows="4" cols="50" class="input-f">
+                    </textarea>
+                    <br>
+                    <br>
 
                 </div>
-                <p>Get News about new discoveries,stay updated on the latest research and studies,galleries of our on-site guided tours.
+                <p>Get News about new discoveries,stay updated on the latest research and studies,galleries of our
+                    on-site guided tours.
                     <br>
-                    <br>
-                    Choose under here!
+
                 </p>
                 <div id="user-opt">
-                    <div>
-                        <label for="weekly">Weekly Sub</label>
-                        <input type="radio" name="subrsciption" id="weekly" value="weekly" class="input-f"  checked required>
-                        <p>
 
-                            Guided Tours Highlights
-                            <br>
-                            Weekly insight of a random picked Site!
-                            <br>
-                            <b>SIGN UP FOR FREE</b>
-                        </p>
-                    </div>
-                    <div>
-                        <label for="monthly">Monthly Sub</label>
-                        <input type="radio" name="subrsciption id="monthly" value="monthly" class="input-f" required>
-                        <p>
-                            Guided Tours Highlights
-                            <br>
-                            Weekly insight of a random picked Site!
-                            <br>
-                            Monthly Research Newsletter,
-                            <br>
-                            Free Gallery
-                            <br>
-                            <b>£7/$9.24/8.19€</b>
-                        </p>
-                    </div>
-                    <div>
-                        <label for="yearly">Annual Sub</label>
-                        <input type="radio" name="subrsciption id="yearly" value="yearly" class="input-f" required>
-                        <p>
-                            Guided Tours Highlights
-                            <br>
-                            Weekly insight of a random picked Site!
-                            <br>
-                            Monthly Research Newsletter
-                            <br>
-                            Annual Research Highlights
-                            <br>
-                            Pro Gallery and a <b>FREE ENTRANCE</b> to 3 days guided tour in your favourite sites!
-                            <br>
-                            <b>£60/$79.20/70.20€</b>
-                        </p>
-                    </div>
+                    <label for="sub">Choose a subrscriprion!</label>
+
+                    <select name="sub" id="sub">
+                        <option value="weekly Sub" class="select">
+                            Weekly Sub is FREE!
+                        </option>
+
+
+
+                        <option value="monthly" class="select">
+                            Monthly Sub <br>
+                            £7/$9.24/8.19€
+                        </option>
+                
+                
+                    
+                    <option value="yearly" class="select">
+                    
+                        Yearly Sub
+                        <b>£60/$79.20/70.20€</b>
+                    </option>
+                    </select>
                 </div>
-                <button type="submit" id="sign-but">SIGN UP!</button>
+                <button type="submit" id="sign-but">Contact Us!</button>
             </form>
         </section>
     </main>
     <!-- footer -->
 
     <footer>
-        <ul id="footer-list">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="This is our Facebook page."><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="This is our Instagram page"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="This is our YouTube channel"><i class="fa-brands fa-youtube"></i></a></li>
-        </ul>
+        <div id="footer-list">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="This is our Facebook page."><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="This is our Instagram page"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="This is our YouTube channel"><i class="fa-brands fa-youtube"></i></a>
+        </div>
     </footer>
     <!--kit from font awesome-->
     <script src="https://kit.fontawesome.com/65d1820b19.js" crossorigin="anonymous"></script>

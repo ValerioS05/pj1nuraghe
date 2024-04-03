@@ -423,7 +423,9 @@ a {
     background: transparent;
     color: #020202;
     width: 100%;
-    height: 25px;
+    max-width: 100%;
+    height: 45px;
+    max-height: 45px;
     margin: 10px 0 20px 0;
     border: 1px solid #111010;
     border-radius: 2px;
@@ -431,11 +433,17 @@ a {
     text-align: center;
 }
 
+
+
+
 #user-opt {
     background: transparent;
     background-color: rgba(231, 222, 222, 0.65);
     text-align: center;
     box-shadow: 0 0 20px black;
+    padding:10px 0;
+    margin: 10px auto;
+    max-width:600px;
 }
 
 
@@ -581,7 +589,7 @@ footer {
     }
 
     #videosec {
-        margin-top: 97px;
+        margin-top: 115px;
     }
 
     #nurvideo {
@@ -594,6 +602,10 @@ footer {
     /*signup form*/
     #signup {
         max-width: 75%;
+    }
+
+    #user-opt {
+        padding:20px 40px;
     }
 
     #sign-but {
