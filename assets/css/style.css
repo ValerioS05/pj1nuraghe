@@ -373,7 +373,7 @@ a li:hover {
 /*form style */
 #signup {
     width: 100%;
-    margin: 10px auto;
+    margin: 10px auto 0 auto;
     padding: 20px;
     background-image: url(../images/pexels-life-of-pix-8892.jpg);
     background-size: cover;
@@ -548,4 +548,16 @@ footer {
         margin: 90px auto;
         border: 10px double black;
     }
+/*signup form*/
+    #signup {
+        max-width: 75%;
+    }
+
+    #sign-but {
+        max-width: 300px;
+        height: 45px;
+        margin: 10px auto;
+    }
+
+
 }
