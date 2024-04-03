@@ -129,14 +129,15 @@ main {
 /*text over hero image */
 #text-image {
     position: absolute;
-    bottom: 120px;
-    left: 4rem;
+    bottom: 12px;
+    left: 5rem;
     width: 60%;
     text-align: center;
-    background-color: rgba(169, 171, 173, 0.838);
+    background-color: rgba(106, 107, 109, 0.753);
     border: 2px double black;
-    box-shadow: 3px 4px 2px black;
+    box-shadow: 0 0 20px black;
     border-radius: 20%;
+    color: #f9f9f9;
 }
 
 /*main content section*/
@@ -201,10 +202,11 @@ main {
 }
 
 #rank-nur a {
-    margin: 0 20px;
-    padding: 2px 3px;
+    margin: 6px 20px;
+    padding: 10px 6px;
     width: 100px;
     display: inline-block;
+    box-shadow: 0 6px 10px black;
 }
 
 #rank-nur h3 {
@@ -332,10 +334,13 @@ a li:hover {
     margin-bottom: 20px;
     background-color: rgb(111, 114, 115);
     color: #f9f9f9;
+    box-shadow: 0 5px 5px black;
 }
 
 #ten-facts p {
     text-align: center;
+    font-size: 120%;
+    margin-top: 30px;
 }
 
 #ten-facts ul {
@@ -350,6 +355,7 @@ a li:hover {
     margin: 15px;
     padding: 10px;
     text-align: center;
+    box-shadow: 0px 10px 10px black;
 }
 
 /*video facts page */
@@ -363,6 +369,7 @@ a li:hover {
     margin: 5px 0;
     border: 1px double black;
     text-align: center;
+    box-shadow: 0 5px 10px black;
 
 }
 
@@ -393,6 +400,7 @@ a li:hover {
     background: transparent;
     background-color: rgba(231, 222, 222, 0.65);
     text-align: center;
+    box-shadow: 0 0 20px black;
 }
 
 #signup p {
@@ -423,6 +431,7 @@ a li:hover {
     background: transparent;
     background-color: rgba(231, 222, 222, 0.65);
     text-align: center;
+    box-shadow: 0 0 20px black;
 }
 
 
@@ -435,6 +444,7 @@ a li:hover {
     color: white;
     margin: 44px auto;
     box-shadow: 5px 0 10px rgba(15, 15, 15, 0.836);
+    border:2px solid black;
 }
 
 /*button style*/
