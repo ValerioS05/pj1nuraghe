@@ -206,13 +206,16 @@ article {
     box-shadow: 0 0 7px black;
   }
 
-  #link-2-art {
+  #p-2-a {
     font-size:large;
   }
 
-  #artic a {
-    box-shadow: 0 5px 10px black;
-    background-color: rgb(150, 151, 151);
+  #a-2-study {
+    margin: 6px auto;
+    padding: 10px 6px;
+    width: 200px;
+    box-shadow: 0 6px 10px black;
+    background-color: rgba(250, 253, 254, 0.457)
   }
 
 #rank-nur ul {
