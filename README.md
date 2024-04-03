@@ -1,39 +1,30 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# [Nuraghe's]
 
-Welcome,
+Welcome to [Nuraghe's]! This repository hosts the source code and content for my historical website. Here, we aim to provide a rich and immersive experience for exploring and learning about the ancient structure of Sardinia well known as Nuraghe
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Getting Started
+**Explore the Code:** Familiarize yourself with the structure of the codebase. The main files and directories you'll be working with include:
+- `index.html`: The main HTML file that serves as the entry point to the website.
+- `assets`: Directory containing CSS stylesheets,and medias like images and video.
+- `losa.html`: Directory containing content about a specific argument.
+- `nuraxi.html`: Directory containing content about a specific argument.
+- `sarbana.html`: Directory containing content about a specific argument.
+- `README.md`: This README file for guidance.
+- `signup.html`: Directory for Form signup section
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
 
-## Codeanywhere Reminders
+![screenshot of what was my idea at the beginning for desktop and tablets](assets/images/screendesk.png)
+![screenshot of what was my idea at the beginning for mobile](./assets/images/screenmobile.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+**Report Issues:** If you encounter any bugs, issues, or have suggestions for improvements, please open an issue on our GitHub repository. Be sure to provide detailed information about the problem or suggestion.
 
-`python3 -m http.server`
+[Nuraghe`s] is designed to be user-friendly and intuitive. Simply navigate to the website URL to start exploring. Here are some key features and functionalities:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- **Timeline:** Explore historical events through a simple timeline.
+- **Resources:** Educational resources related to the historical period.
+- **Medias:** Find detailed images and video related to the ancient monuments.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Contact me
 
-`http_server`
+If you have any questions, feedback, or inquiries, please contact us at [valerius92@live.it].
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
