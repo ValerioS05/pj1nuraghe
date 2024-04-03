@@ -12,6 +12,23 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 - `README.md`: This README file for guidance.
 - `signup.html`: Directory for Form signup section
 
+## Features
+
+### 1. Favicon
+   - favicon created from [favicon.io](https://favicon.io/favicon-generator/)
+   - View details about each nuraghe, including location, history, and architectural features.
+
+### 2. Virtual Tours
+   - Experience virtual tours of nuraghes, allowing users to navigate through these ancient structures from the comfort of their own homes with images and video.
+
+### 3. Educational Resources
+   - Access range of educational resources, including article, UNESCO link, and content, to learn more about the history and significance of nuraghes.
+   - Engage with multimedia content such as video, images, and interactive timelines to enhance learning.
+
+
+### 4. Accessibility Features
+   - Ensure accessibility for all users, including those with disabilities, by providing alternative text descriptions for images and implementing keyboard navigation features.
+
 
 ## User Stories
 
