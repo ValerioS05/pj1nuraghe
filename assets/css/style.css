@@ -41,7 +41,7 @@ p {
 
 /*header*/
 header {
-    background-color: rgb(146, 141, 141);
+    background-color: rgb(175, 172, 172);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -78,7 +78,7 @@ nav {
     position: absolute;
     display: none;
     box-shadow: 0 3px 3px black;
-    background-color: rgb(146, 141, 141);
+    background-color: rgb(175, 172, 172);
     width: 100%;
     left: 0%;
     padding: 0 1rem;
@@ -159,9 +159,8 @@ main {
 }
 
 #main-content h3 {
-    border-bottom: 2px double black;
     margin-bottom: 4px;
-    box-shadow: 0 4px 4px black;
+    
 }
 
 /*nuraghe description components*/
@@ -173,13 +172,7 @@ main {
     margin-top: 15px;
 }
 
-#nur-li dt {
-    margin: 10px 0px;
-}
 
-#nur-li dd {
-    margin: 15px 5px;
-}
 /*pictures in index page*/
 .img-dd {
     width: 100%;
@@ -216,19 +209,17 @@ article {
     padding: 10px 6px;
     width: 200px;
     box-shadow: 0 6px 10px black;
-    background-color: rgba(250, 253, 254, 0.457)
-  }
+    background-color: rgba(250, 253, 254, 0.457);
+    border-radius: 13px 13px;
 
-#rank-nur ul {
-    list-style-type: none;
-}
+  }
 
 #rank-nur a {
     margin: 6px 20px;
-    padding: 10px 6px;
     width: 100px;
     display: inline-block;
     box-shadow: 0 6px 10px black;
+    border-radius: 13px 13px;
 }
 
 #rank-nur h3 {
@@ -238,25 +229,16 @@ article {
 
 a {
     margin-bottom: 10px;
-    color: blue;
+    color: black;
 }
 
 .link-fam {
     padding:10px;
 }
 
-a li:hover {
-    color: rgb(243, 240, 240);
-    background-color: rgb(5, 5, 5);
-    border: 2px double rgb(236, 231, 231);
-}
 
 /*main content section for nuraxi.html*/
 
-#nurpic {
-    width: 100%;
-    box-shadow: 0 2px 2px black;
-}
 
 /*timeline*/
 
@@ -566,10 +548,11 @@ footer {
 
     #rank-nur a {
         height: 100px;
-        margin: 0 auto;
+        margin: 0 60px;
+
     }
 
-    #image-dd {
+    .img-dd {
         max-width: 750px;
         display: block;
         margin: 90px auto;
