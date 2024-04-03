@@ -610,6 +610,10 @@ footer {
         padding:20px 40px;
     }
 
+    #user-opt label {
+        margin-right:10px;
+    }
+
     #sign-but {
         max-width: 300px;
         width: 230px;

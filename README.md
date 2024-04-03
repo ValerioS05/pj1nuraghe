@@ -12,6 +12,23 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 - `README.md`: This README file for guidance.
 - `signup.html`: Directory for Form signup section
 
+
+## User Stories
+
+- **history enthusiast**, I want to explore the origins and significance of nuraghes, so that I can deepen my understanding of ancient Sardinian civilization and its architectural marvels.
+
+- **student of archaeology**, I want access to scholarly articles and research papers on nuraghes, so that I can study their construction techniques, cultural significance, and historical context for my academic pursuits.
+
+- **traveler planning a trip to Sardinia**, I want to learn about the different nuraghes scattered across the island, so that I can include visits to these ancient sites in my itinerary and immerse myself in the rich history of Sardinia.
+
+- **curious visitor to the website**, I want to explore virtual tours of nuraghes, so that I can experience these ancient structures firsthand and appreciate their unique architectural design!
+
+- **local resident of Sardinia**, I want to contribute my own knowledge and experiences of nuraghes to the website, so that I can share insights and stories passed down through generations within my community and preserve our cultural heritage.
+
+
+- **visually impaired user**, I want the website to provide accessible content and alternative text descriptions for images of nuraghes, so that I can engage with the information and learn about these ancient structures through screen readers or other assistive technologies.
+
+
 ## Here a Practical way to explain what my idea was at the beginning
 ![screenshot of what was my idea at the beginning for desktop and tablets](assets/images/screendesk.png)
 ![screenshot of what was my idea at the beginning for mobile](./assets/images/screenmobile.png)
@@ -26,8 +43,7 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 - **Resources:** Educational resources related to the historical period.
 - **Medias:** Find detailed images and video related to the ancient monuments. 
 pictures and video taken from wikimedia commons.
-- **Palette:** I used a gradient of greys all over the pages, from white to black but mainly grey.
-- **strategy:** Target audience is students, history enthusiasts, academics, or the general public in search of a smart holiday!
+- **Palette:** I used a gradient of greys all over the pages, from white to black but mainly grey. Even a dull gray give the feeling to stay in contact with these ancient rocks.
 - **structure:** The site starting from the index to finish with the signup page find a simple structure from top to bottom ,very linear with loads of content for the mobile version.
 In the desktop I focused more on the media where you can find immersive pictures, a more enlarged structure for the other pages to get a better look on details, without loosing the overall original structure from the index page.
 
