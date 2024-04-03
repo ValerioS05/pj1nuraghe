@@ -217,6 +217,10 @@ a {
     color: blue;
 }
 
+.link-fam {
+    padding:10px;
+}
+
 a li:hover {
     color: rgb(243, 240, 240);
     background-color: rgb(5, 5, 5);
@@ -433,7 +437,18 @@ a li:hover {
     box-shadow: 5px 0 10px rgba(15, 15, 15, 0.836);
 }
 
+/*button style*/
 
+#sign-but {
+    color: white;
+    background-color: rgb(111, 114, 115);
+    height: 30px;
+    width: 200px;
+    margin: 10px auto;
+    border: 3px solid black;
+    box-shadow: 5px 0 10px rgba(15, 15, 15, 0.836);
+
+}
 
 
 
@@ -548,15 +563,20 @@ footer {
         margin: 90px auto;
         border: 10px double black;
     }
-/*signup form*/
+
+    /*signup form*/
     #signup {
         max-width: 75%;
     }
 
     #sign-but {
         max-width: 300px;
+        width: 230px;
         height: 45px;
         margin: 10px auto;
+        color: white;
+        background-color: rgb(111, 114, 115);
+        font-size: 150%;
     }
 
 
