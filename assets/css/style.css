@@ -187,6 +187,7 @@ main {
 }
 
 
+
 .nurname {
     margin-top: 15px;
     background-color: rgb(111, 114, 115);
@@ -196,6 +197,23 @@ main {
     color: white;
     padding: 10px 0;
 }
+
+article {
+    background-color:rgb(185, 185, 185); 
+    padding: 20px;
+    border-radius: 10px 10px 0 0px;
+    margin-top: 20px;
+    box-shadow: 0 0 7px black;
+  }
+
+  #link-2-art {
+    font-size:large;
+  }
+
+  #artic a {
+    box-shadow: 0 5px 10px black;
+    background-color: rgb(150, 151, 151);
+  }
 
 #rank-nur ul {
     list-style-type: none;
