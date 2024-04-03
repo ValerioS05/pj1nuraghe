@@ -497,8 +497,10 @@ footer {
     font-size: 130%;
 }
 
-
-
+#me {
+    text-align: center;
+    text-transform: uppercase;
+}
 /*media query for tablets and larger screens (768px and over) */
 @media screen and (min-width:768px) {
 
