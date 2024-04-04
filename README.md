@@ -24,6 +24,10 @@ mettere immagine
 
 mettere immagine
 
+- `facts.html`: Directory containing video plus list of facts
+
+![screenshot of the facts page](./assets/images/facts-page.png)
+
 - `signup.html`: Directory for Form signup section
 
 mettere immagine
@@ -147,7 +151,8 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 - Used Font Awesome for icons
 
 
-- **Fonts** from Google Fonts
+- **Fonts** 
+- from Google Fonts
 
 
 ## Contact me
