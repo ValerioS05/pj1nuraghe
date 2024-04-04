@@ -153,7 +153,7 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 ## Validation
 - Achieved using validator from W3.org for both [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
-![screenshot of succesful validation HTML](/assets/assets/images/validation%20html.png)
+![screenshot of succesful validation HTML](/assets/images/validation-html.png)
 
 ![screenshot of succesful validation CSS](/assets/images/valida-css.png)
 
@@ -179,9 +179,11 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 - **Content**
   
   - I took infos for content from the web and a book
-  - **The book** that i read is: Sardinia: Megalithic Island: From Menhirs to Nuraghi: Stories of Stone in the Heart of the Mediterranean.
+  - **The book:**
+   -  Sardinia: Megalithic Island: From Menhirs to Nuraghi: Stories of Stone in the Heart of the Mediterranean.
   by Tina Oldknow Editor, William Warmus Editor
-  - **Web** Mainly  I used UNESCO site for specific infos.
+  - **Web** 
+   - Mainly  I used UNESCO site for specific infos.
 
 - Studies and researches from tandfonline.com
   A spatial statistical study of the distribution of Sardinian nuraghes Annals of GIS, 28(3), 245-261. for Article
@@ -193,20 +195,20 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 
 
 - **Medias:** Used different sites to get pictures like 
-- Pexels,
-- Wikimedia,
-- Unsplash.
+ - Pexels,
+ - Wikimedia,
+ - Unsplash.
 
 - **Favicon** 
-- Generated from Favicon.io
+ - Generated from Favicon.io
 
 
 - **Icons**
-- Used Font Awesome for icons
+  - Used Font Awesome for icons
 
 
 - **Fonts** 
-- from Google Fonts
+ - from Google Fonts
 
 
 ## Contact me
