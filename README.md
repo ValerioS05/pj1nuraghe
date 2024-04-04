@@ -214,9 +214,11 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 - The second issue was the colors, I tried using different colors and palettes but nothing seemed to fit the monochromatic monuments.
 - `solution` I opted for a gradient of grey giving the site a feeling of professional and clear consistent with the meaning of the topic and opted for colorful pictures to give a break to the site palette.
 
-
 - The third issue was on the form page, at the start looked very empty and kinda useless to the site.
 - `solution` Added in some more style than other pages to create some feelings out of a form. Also i changed the second part of the form from a radio to a select box with a dropdown subscription.
+
+- Fourth issue was about errors in my list, I've used a different list `dl/dd/dt` and used images in it and i was counted as error from the validator
+- `solution` I swapped the list with a div using the same structure and ids and classes so it was easy to play around this issue. 
 
 
 
