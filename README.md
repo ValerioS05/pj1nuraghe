@@ -6,7 +6,7 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 **Explore the Code:** Familiarize yourself with the structure of the codebase. The main files and directories you'll be working with include:
 - `index.html`: The main HTML file that serves as the entry point to the website.
 
-![screenshot of the home page](./assets/images/Screenshot-home-page.png)
+![screenshot of the home page](/assets/images/Screenshot-home-page.png)
 
 
 - `assets`: Directory containing CSS stylesheets,and medias like images and video. Contains 3 folders favicon/images/video
@@ -15,7 +15,7 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 - `losa.html/nuraxi.html/sarbana.html`: Directory containing content about a specific argument and timeline.
 
   
-  ![screenshot of nuraxi page](./assets/images/nuraxi%20page.png)
+  ![screenshot of nuraxi page](/assets/images/nuraxi%20page.png)
 
   
 
@@ -23,11 +23,11 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 
 - `facts.html`: Directory containing video plus list of facts
 
-![screenshot of the facts page](./assets/images/facts-page.png)
+![screenshot of the facts page](/assets/images/facts-page.png)
 
 - `signup.html`: Directory for Form signup section
 
-![screenshot of form in signup.html](./assets/images/signup.png)
+![screenshot of form in signup.html](/assets/images/signup.png)
 
 
 - `README.md`: This README file is for guidance and a walktrough.
@@ -52,6 +52,8 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 ### 5. Active timeline
   - A timeline that changes depending on the page you find yourself in,   also strenghten the understanding of the position you are at the moment, enhancing also the content.
 
+
+
 ### 6. Header / Navigation Bar 
   - Contains a logo that refreshes the page to the home page.
   - Contains links to the other pages , also add a style to the page that you are currently in,
@@ -59,9 +61,16 @@ making sure you know where you are at the moment!.
  - Styled in a way that follows you when scrolling , 
  giving you the chance to change anytime you like saving you from scrolling continuosly up or down.
 
+![screenshot of form in header and navbar](/assets/images/header.png)
+
+
 ### 7.Footer 
   - Access a range of social media links with just a click on standard icons!
   - Copyright ;3
+
+
+![picture of footer](/assets/images/footer.png)
+
 
 ## User Stories for User
 
@@ -87,8 +96,8 @@ making sure you know where you are at the moment!.
 
 
 ## Here is a Practical way to explain what my idea was at the beginning
-![screenshot of what was my idea at the beginning for desktop and tablets](assets/images/screendesk.png)
-![screenshot of what was my idea at the beginning for mobile](./assets/images/screenmobile.png)
+![screenshot of what was my idea at the beginning for desktop and tablets](/assets/images/screendesk.png)
+![screenshot of what was my idea at the beginning for mobile](/assets/images/screenmobile.png)
 
 - `screenshots` : used balsamic to help myself to get an initial idea and how to approach the development
 
@@ -138,17 +147,33 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 ## Responsive
 - The site is changing at different sizes despite having only 1 media query it is pretty responsive for any kind of device.
 
-![picture of responsive page](./assets/images/responsive.png)
+![picture of responsive page](/assets/images/responsive.png)
 
 
 ## Validation
 - Achieved using validator from W3.org for both [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
-![screenshot of succesful validation HTML](./assets/images/validation%20html.png)
+![screenshot of succesful validation HTML](/assets/assets/images/validation%20html.png)
 
-![screenshot of succesful validation CSS](./assets/images/valida-css.png)
+![screenshot of succesful validation CSS](/assets/images/valida-css.png)
 
 
+-Lighthouse from DevTools
+![screen shot of lighthouse results](/assets/images/lighthouse.png)
+
+**Issues over deployment**
+
+- The first issue was the images that i used, obviously for a content site we need details and even if the pictures got resized the dimension was too big.
+- `solution` wrapped the picture in a styled box for larger screens giving a touch of style without loosing much details. Also giving breathing space to dont overwhelm the user
+- The second issue was the colors, I tried using different colors and palettes but nothing seemed to fit the monochromatic monuments.
+- `solution` I opted for a gradient of grey giving the site a feeling of professional and clear consistent with the meaning of the topic and opted for colorful pictures to give a break to the site palette.
+- The third issue was on the form page, at the start looked very empty and kinda useless to the site.
+- `solution` Added in some more style than other pages to create some feelings out of a form. Also i changed the second part of the form from a radio to a select box with a dropdown subscription.
+
+
+## The Website is a non-profit 
+### The form added a paid sub only to show the project purpose
+#### Still any donation is accepted
 
 ## Credits
 - **Content**
