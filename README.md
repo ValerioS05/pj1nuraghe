@@ -49,9 +49,18 @@ mettere immagine
    - Ensure accessibility for all users, including those with disabilities, by providing alternative text descriptions for images and video
 
 ### 5. Active timeline
-    - A timeline that changes depending on the page you find yourself in, also strnghten the understanding of the position you are at the moment, enhancing also the content.
+    - A timeline that changes depending on the page you find yourself in,   also strenghten the understanding of the position you are at the moment, enhancing also the content.
 
-## User Stories
+### 6. Header / Navigation Bar 
+    - Contains a logo that refreshes the page to the home page.
+    - Contains links to the other pages , also add a style to the page that you are currently in, making sure you know where you are at the moment!.
+    - Styled in a way that follows you when scrolling , giving you the chance to change anytime you like saving you from scrolling continuosly up or down.
+
+### 7.Footer 
+    - Access a range of social media links with just a click on standard icons!
+    - Copyright ;3
+
+## User Stories for User
 
 - **history enthusiast**, I want to explore the origins and significance of nuraghes, so that I can deepen my understanding of ancient Sardinian civilization and its architectural marvels.
 
@@ -65,6 +74,13 @@ mettere immagine
 
 
 - **visually impaired user**, I want the website to provide accessible content and alternative text descriptions for images of nuraghes, so that I can engage with the information and learn about these ancient structures through screen readers or other assistive technologies.
+
+## For Developer
+
+-  I wanted to share an insight of this monuments and a small part of Sardinian history!
+-  I wanted to show a good amount of content, to inspire people in starting or continuing theyr search for information.
+-  I wanted to keep the user entertained giving different images and pages to check, discover and find what they were looking for.
+    Also the video give a great insight of what we are speaking about!
 
 
 ## Here is a Practical way to explain what my idea was at the beginning
@@ -81,6 +97,13 @@ mettere immagine
 In the desktop I focused more on the media where you can find immersive pictures, a more enlarged structure for the other pages to get a better look on details, without loosing the overall original structure from the index page.
 
 
+
+## Responsive
+The site is changing at different sizes despite having only 1 media query it is pretty responsive for any kind of device.
+
+![picture of responsive page](./assets/images/responsive.png)
+
+-
 ## Validation
 - Achieved using validator from W3.org for both [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
