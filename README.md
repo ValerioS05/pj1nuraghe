@@ -54,14 +54,14 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 
 ### 6. Header / Navigation Bar 
   - Contains a logo that refreshes the page to the home page.
-    - Contains links to the other pages , also add a style to the page that you are currently in,
-       making sure you know where you are at the moment!.
-    - Styled in a way that follows you when scrolling , 
-      giving you the chance to change anytime you like saving you from scrolling continuosly up or down.
+  - Contains links to the other pages , also add a style to the page that you are currently in,
+making sure you know where you are at the moment!.
+ - Styled in a way that follows you when scrolling , 
+ giving you the chance to change anytime you like saving you from scrolling continuosly up or down.
 
 ### 7.Footer 
   - Access a range of social media links with just a click on standard icons!
-    - Copyright ;3
+  - Copyright ;3
 
 ## User Stories for User
 
@@ -118,6 +118,14 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 
 
 **Facts page**
+- In the fact page we can see a Video as first look.The video is completly muted and no autoplay. Is well rounded and clear with controls and credits
+- I used a list of 10 facts 5 that where most researched over google search engine and 5 that I liked, giving the sense of a personal site but also `what people need`.
+
+**Conctact Page**
+- Here we can find a form page only, I opted for a heavy style to supply the fact that the initial form looked very light and tasteless.
+  The form got a rocky background same as the timeline to stay consistent with topic and UI.
+  We have first part of the form with basic first and last name ,mail and textarea. Giving the user the chance to interact even in a simple page.
+ The second part we can see a select dropdown menu where we can choose which kind of subscription you would like but it`s not required.
 
 
 
