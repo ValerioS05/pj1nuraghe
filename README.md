@@ -98,11 +98,11 @@ making sure you know where you are at the moment!.
     Also the video give a great insight of what we are speaking about!
 
 
-## Here is a Practical way to explain what my idea was at the beginning
+## Here is a Practical way to explain the skeleton and what my idea was at the beginning
 ![screenshot of what was my idea at the beginning for desktop and tablets](/assets/images/screendesk.png)
 ![screenshot of what was my idea at the beginning for mobile](/assets/images/screenmobile.png)
 
-- `screenshots` : used balsamic to help myself to get an initial idea and how to approach the development
+- `screenshots` : used [balsamiq](https://valerios05.github.io/pj1nuraghe/) to help myself to get an initial idea and how to approach the development
 
 
 
@@ -174,6 +174,8 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 - `solution` Added in some more style than other pages to create some feelings out of a form. Also i changed the second part of the form from a radio to a select box with a dropdown subscription.
 
 
+
+
 ## The Website is a non-profit 
 ### The form added a paid sub only to show the project purpose
 #### Still any donation is accepted
@@ -186,32 +188,38 @@ In the desktop/tablet I focused more on the media where you can find immersive p
    -  Sardinia: Megalithic Island: From Menhirs to Nuraghi: Stories of Stone in the Heart of the Mediterranean.
   by Tina Oldknow Editor, William Warmus Editor
   - **Web** 
-   - Mainly  I used UNESCO site for specific infos.
+   - Mainly  I used the [UNESCO](https://whc.unesco.org/en/list/833/) site for specific infos.
 
-- Studies and researches from tandfonline.com
+- Studies and researches from [tandfonline.com](https://tandfonline.com)
   A spatial statistical study of the distribution of Sardinian nuraghes Annals of GIS, 28(3), 245-261. for Article
 
-    
+
+
+ 
   
 
 
 
 
 - **Medias:** Used different sites to get pictures like 
- - Pexels,
- - Wikimedia,
- - Unsplash.
+ - [Pexels](https://www.pexels.com)
+ - [Wikimedia](https://commons.wikipedia.org)
+ - [Unsplash](https://unsplash.com)
 
 - **Favicon** 
  - Generated from Favicon.io
 
 
 - **Icons**
-  - Used Font Awesome for icons
+  - Used [Font Awesome](https://fontawesome.com/)for icons
 
 
 - **Fonts** 
- - from Google Fonts
+ - from [Google Fonts](https://fonts.google.com/)
+
+
+
+**I used codeanywhere mainly but due to constant issues and large loading times i swapped to the desktop version of `VSCODE` speeding up my deployment.**
 
 
 ## Contact me
