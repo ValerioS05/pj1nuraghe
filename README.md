@@ -6,7 +6,7 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 **Explore the Code:** Familiarize yourself with the structure of the codebase. The main files and directories you'll be working with include:
 - `index.html`: The main HTML file that serves as the entry point to the website.
 
-mettere immagine
+![screenshot of the home page](./assets/images/Screenshot-home-page.png)
 
 
 - `assets`: Directory containing CSS stylesheets,and medias like images and video. Contains 3 folders favicon/images/video
@@ -35,7 +35,7 @@ mettere immagine
 
 ### 1. Favicon
    - favicon created from [favicon.io](https://favicon.io/favicon-generator/)
-   - View details about each nuraghe, including location, history, and architectural features.
+  
 
 ### 2. Virtual Tour
    - Experience virtual tour of nuraghes, allowing users to immerse in these ancient structures from the comfort of their own homes with images and video.
@@ -43,21 +43,23 @@ mettere immagine
 ### 3. Educational Resources
    - Access range of educational resources, including article, UNESCO link, and content, to learn more about the history and significance of nuraghes.
    - Engage with multimedia content such as video, images, and interactive timelines to enhance learning.
-
+   - View details about each nuraghe, including location, history, and architectural features.
 
 ### 4. Accessibility Features
    - Ensure accessibility for all users, including those with disabilities, by providing alternative text descriptions for images and video
 
 ### 5. Active timeline
-    - A timeline that changes depending on the page you find yourself in,   also strenghten the understanding of the position you are at the moment, enhancing also the content.
+  - A timeline that changes depending on the page you find yourself in,   also strenghten the understanding of the position you are at the moment, enhancing also the content.
 
 ### 6. Header / Navigation Bar 
-    - Contains a logo that refreshes the page to the home page.
-    - Contains links to the other pages , also add a style to the page that you are currently in, making sure you know where you are at the moment!.
-    - Styled in a way that follows you when scrolling , giving you the chance to change anytime you like saving you from scrolling continuosly up or down.
+  - Contains a logo that refreshes the page to the home page.
+    - Contains links to the other pages , also add a style to the page that you are currently in,
+       making sure you know where you are at the moment!.
+    - Styled in a way that follows you when scrolling , 
+      giving you the chance to change anytime you like saving you from scrolling continuosly up or down.
 
 ### 7.Footer 
-    - Access a range of social media links with just a click on standard icons!
+  - Access a range of social media links with just a click on standard icons!
     - Copyright ;3
 
 ## User Stories for User
@@ -89,21 +91,23 @@ mettere immagine
 
 - `screenshots` : used balsamic to help myself to get an initial idea and how to approach the development
 
-**Report Issues:** If you encounter any bugs, issues, or have suggestions for improvements, please open an issue on our GitHub repository. Be sure to provide detailed information about the problem or suggestion.
 
 
-- **Palette:** I used a gradient of greys all over the pages, from white to black but mainly grey. Even a dull gray give the feeling to stay in contact with these ancient "rocks".
-- **structure:** The site starting from the index to finish with the signup page find a simple structure from top to bottom ,very linear with loads of content for the mobile version.
-In the desktop I focused more on the media where you can find immersive pictures, a more enlarged structure for the other pages to get a better look on details, without loosing the overall original structure from the index page.
+## Palette:
+- I used a gradient of greys all over the pages, from white to black but mainly grey. Even a dull gray give the feeling to stay in contact with these ancient "rocks".
+## Structure:
+ - The site starting from the index to finish with the signup page find a simple structure from top to bottom ,very linear with loads of content for the mobile version.
+In the desktop/tablet I focused more on the media where you can find immersive pictures, a more enlarged structure for the other pages to get a better look on details, without loosing the overall original structure from the index page.
+
 
 
 
 ## Responsive
-The site is changing at different sizes despite having only 1 media query it is pretty responsive for any kind of device.
+- The site is changing at different sizes despite having only 1 media query it is pretty responsive for any kind of device.
 
 ![picture of responsive page](./assets/images/responsive.png)
 
--
+
 ## Validation
 - Achieved using validator from W3.org for both [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
@@ -111,7 +115,43 @@ The site is changing at different sizes despite having only 1 media query it is 
 
 ![screenshot of succesful validation CSS](./assets/images/valida-css.png)
 
+
+
+## Credits
+- **Content**
+  
+  - I took infos for content from the web and a book
+  - **The book** that i read is: Sardinia: Megalithic Island: From Menhirs to Nuraghi: Stories of Stone in the Heart of the Mediterranean.
+  by Tina Oldknow Editor, William Warmus Editor
+  - **Web** Mainly  I used UNESCO site for specific infos.
+
+- Studies and researches from tandfonline.com
+  A spatial statistical study of the distribution of Sardinian nuraghes Annals of GIS, 28(3), 245-261. for Article
+
+    
+  
+
+
+
+
+- **Medias:** Used different sites to get pictures like 
+- Pexels,
+- Wikimedia,
+- Unsplash.
+
+- **Favicon** 
+- Generated from Favicon.io
+
+
+- **Icons**
+- Used Font Awesome for icons
+
+
+- **Fonts** from Google Fonts
+
+
 ## Contact me
 
 If you have any questions, feedback, or inquiries, please contact us at [valerius92@live.it].
 
+**Report Issues:** If you encounter any bugs, issues, or have suggestions for improvements, please open an issue on our GitHub repository. Be sure to provide detailed information about the problem or suggestion.
