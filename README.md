@@ -2,23 +2,37 @@
 
 Welcome to Nuraghe's! This repository hosts the source code and content for my historical website. Here, we aim to provide a rich and immersive experience for exploring and learning about the ancient structure of Sardinia well known as Nuraghe
 
+
+
 ## Find here the link to the site!
 [Nuraghe's](https://valerios05.github.io/pj1nuraghe/)
+
+
 
 ## Getting Started
 **Explore the Code:** Familiarize yourself with the structure of the codebase. The main files and directories you'll be working with include:
 - `index.html`: The main HTML file that serves as the entry point to the website.
 
+
 ![screenshot of the home page](/assets/images/Screenshot-home-page.png)
+
+
 
 
 - `assets`: Directory containing CSS stylesheets,and medias like images and video. Contains 3 folders favicon/images/video
 
 
+
+
 - `losa.html/nuraxi.html/sarbana.html`: Directory containing content about a specific argument and timeline.
 
+
+
   
-  ![screenshot of nuraxi page](/assets/images/nuraxi%20page.png)
+![screenshot of nuraxi page](/assets/images/nuraxi%20page.png)
+
+
+
 
   
 
@@ -26,11 +40,23 @@ Welcome to Nuraghe's! This repository hosts the source code and content for my h
 
 - `facts.html`: Directory containing video plus list of facts
 
+
+
 ![screenshot of the facts page](/assets/images/facts-page.png)
+
+
+
+
 
 - `signup.html`: Directory for Form signup section
 
+
+
+
 ![screenshot of form in signup.html](/assets/images/signup.png)
+
+
+
 
 
 - `README.md`: This README file is for guidance and a walktrough.
@@ -55,8 +81,6 @@ Welcome to Nuraghe's! This repository hosts the source code and content for my h
 ### 5. Active timeline
   - A timeline that changes depending on the page you find yourself in,   also strenghten the understanding of the position you are at the moment, enhancing also the content.
 
-
-
 ### 6. Header / Navigation Bar 
   - Contains a logo that refreshes the page to the home page.
   - Contains links to the other pages , also add a style to the page that you are currently in,
@@ -64,7 +88,11 @@ making sure you know where you are at the moment!.
  - Styled in a way that follows you when scrolling , 
  giving you the chance to change anytime you like saving you from scrolling continuosly up or down.
 
+
+
 ![screenshot of form in header and navbar](/assets/images/header.png)
+
+
 
 
 ### 7.Footer 
@@ -72,7 +100,13 @@ making sure you know where you are at the moment!.
   - Copyright ;3
 
 
+
 ![picture of footer](/assets/images/footer.png)
+
+
+
+
+
 
 
 ## User Stories for User
@@ -93,9 +127,9 @@ making sure you know where you are at the moment!.
 ## For Developer
 
 -  I wanted to share an insight of this monuments and a small part of Sardinian history!
--  I wanted to show a good amount of content, to inspire people in starting or continuing theyr search for information.
+-  I wanted to show a good amount of content, to inspire people in starting or continuing their search for information.
 -  I wanted to keep the user entertained giving different images and pages to check, discover and find what they were looking for.
-    Also the video give a great insight of what we are speaking about!
+Also the video give a great insight of what we are speaking about!
 
 
 ## Here is a Practical way to explain the skeleton and what my idea was at the beginning
@@ -110,6 +144,8 @@ making sure you know where you are at the moment!.
 ## Structure:
  - The site starting from the index to finish with the signup page find a simple structure from top to bottom ,very linear with loads of content for the mobile version.
 In the desktop/tablet I focused more on the media where you can find immersive pictures, a more enlarged structure for the other pages to get a better look on details, without loosing the overall original structure from the index page.
+
+
 - **The home page**
 - We start with the header that is there all the time with you.
   Very clear logo Black on Light gray same as the Nav bar.
@@ -138,6 +174,7 @@ In the desktop/tablet I focused more on the media where you can find immersive p
   The form got a rocky background same as the timeline to stay consistent with topic and UI.
   We have first part of the form with basic first and last name ,mail and textarea. Giving the user the chance to interact even in a simple page.
  The second part we can see a select dropdown menu where we can choose which kind of subscription you would like but it`s not required.
+ The form action is delivery to Code Institute dump form.
 
 
 
@@ -147,8 +184,13 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 **Palette**
 - I used a gradient of greys all over the pages, from white to black but mainly grey. Even a dull gray give the feeling to stay in contact with these ancient "rocks".
 - used [Paletton](https://paletton.com)
+
+
+
 ## Responsive
 - The site is changing at different sizes despite having only 1 media query it is pretty responsive for any kind of device.
+- Tried on Galaxy s22+ ,Galaxy tab a5/+ Ipad air, iPhone x, Mac book , Desktop an Laptop 
+- Used Chrome, Firefox, Edge
 
 ![picture of responsive page](/assets/images/responsive.png)
 
@@ -168,12 +210,27 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 
 - The first issue was the images that i used, obviously for a content site we need details and even if the pictures got resized the dimension was too big.
 - `solution` wrapped the picture in a styled box for larger screens giving a touch of style without loosing much details. Also giving breathing space to dont overwhelm the user
+
 - The second issue was the colors, I tried using different colors and palettes but nothing seemed to fit the monochromatic monuments.
 - `solution` I opted for a gradient of grey giving the site a feeling of professional and clear consistent with the meaning of the topic and opted for colorful pictures to give a break to the site palette.
+
+
 - The third issue was on the form page, at the start looked very empty and kinda useless to the site.
 - `solution` Added in some more style than other pages to create some feelings out of a form. Also i changed the second part of the form from a radio to a select box with a dropdown subscription.
 
 
+
+## For future improvements 
+- I would like to make the site more interactive , and more kid friendly.
+  
+
+-  There could be space for a more detailed timeline and a major gallery!
+  
+
+-  Interactive maps where you can see where the actual monuments are and where the tours start!
+  
+
+  
 
 
 ## The Website is a non-profit 
@@ -185,12 +242,12 @@ In the desktop/tablet I focused more on the media where you can find immersive p
   
   - I took infos for content from the web and a book
   - **The book:**
-   -  Sardinia: Megalithic Island: From Menhirs to Nuraghi: Stories of Stone in the Heart of the Mediterranean.
+  -  Sardinia: Megalithic Island: From Menhirs to Nuraghi: Stories of Stone in the Heart of the Mediterranean.
   by Tina Oldknow Editor, William Warmus Editor
   - **Web** 
-   - Mainly  I used the [UNESCO](https://whc.unesco.org/en/list/833/) site for specific infos.
+  - Mainly  I used the [UNESCO](https://whc.unesco.org/en/list/833/) site for specific infos.
 
-- Studies and researches from [tandfonline.com](https://tandfonline.com)
+  - Studies and researches from [tandfonline.com](https://tandfonline.com)
   A spatial statistical study of the distribution of Sardinian nuraghes Annals of GIS, 28(3), 245-261. for Article
 
 
@@ -215,7 +272,7 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 
 
 - **Fonts** 
- - from [Google Fonts](https://fonts.google.com/)
+  - from [Google Fonts](https://fonts.google.com/)
 
 
 
