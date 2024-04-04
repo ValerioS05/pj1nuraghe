@@ -12,17 +12,15 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 - `assets`: Directory containing CSS stylesheets,and medias like images and video. Contains 3 folders favicon/images/video
 
 
-- `losa.html`: Directory containing content about a specific argument.
+- `losa.html/nuraxi.html/sarbana.html`: Directory containing content about a specific argument.
+- As you can see from the picture I used a picture as first look with a timeline and a content respectively from left to right.
+- The timeline is different when changing from the tree different directories listed on top.
+  
+  ![screenshot of nuraxi page](./assets/images/nuraxi%20page.png)
+
+  
 
 
-- `nuraxi.html`: Directory containing content about a specific argument.
-
-mettere immagine
-
-
-- `sarbana.html`: Directory containing content about a specific argument.
-
-mettere immagine
 
 - `facts.html`: Directory containing video plus list of facts
 
@@ -30,7 +28,7 @@ mettere immagine
 
 - `signup.html`: Directory for Form signup section
 
-mettere immagine
+![screenshot of form in signup.html](./assets/images/signup.png)
 
 
 - `README.md`: This README file for guidance and a walktrough.
