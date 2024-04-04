@@ -12,9 +12,8 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 - `assets`: Directory containing CSS stylesheets,and medias like images and video. Contains 3 folders favicon/images/video
 
 
-- `losa.html/nuraxi.html/sarbana.html`: Directory containing content about a specific argument.
-- As you can see from the picture I used a picture as first look with a timeline and a content respectively from left to right.
-- The timeline is different when changing from the tree different directories listed on top.
+- `losa.html/nuraxi.html/sarbana.html`: Directory containing content about a specific argument and timeline.
+
   
   ![screenshot of nuraxi page](./assets/images/nuraxi%20page.png)
 
@@ -31,7 +30,7 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 ![screenshot of form in signup.html](./assets/images/signup.png)
 
 
-- `README.md`: This README file for guidance and a walktrough.
+- `README.md`: This README file is for guidance and a walktrough.
 
 ## Features
 
@@ -95,15 +94,39 @@ Welcome to [Nuraghe's]! This repository hosts the source code and content for my
 
 
 
-## Palette:
-- I used a gradient of greys all over the pages, from white to black but mainly grey. Even a dull gray give the feeling to stay in contact with these ancient "rocks".
+
 ## Structure:
  - The site starting from the index to finish with the signup page find a simple structure from top to bottom ,very linear with loads of content for the mobile version.
 In the desktop/tablet I focused more on the media where you can find immersive pictures, a more enlarged structure for the other pages to get a better look on details, without loosing the overall original structure from the index page.
+- **The home page**
+- We start with the header that is there all the time with you.
+  Very clear logo Black on Light gray same as the Nav bar.
+  I choose the header to follow your scrolling due to lenght of the website, gives you the chance to arrive at the bottom and change your position even from there.
+  The header stays the same in every page, the only element that changes is the nav bar that specifies in which main page you are at the moment.
+- The hero image that i choose is coloful didn't distrupt the site's colors it added some contrast. 
+  the image is also followed from 2 headers , these 2 headers serves as guidance to the topic of the site and also add interest at the hero image.
+- The main content finds 2 pictures, the first at the top the second at the bottom giving a bit of breathing space  between the content
+- An article the gives vibes of official and trustfully site.
+- The famous sites section gives you the chance to discover more on the site with the option to choose 3 different links.
+- The footer contains links to social media and copyright.
+  Also the footer keeps same style as header to give consistency to the site and it stays the same for any of the pages.
+
+**Famous sites pages**
+-  I used a picture as first look with a timeline and a content respectively from left to right.
+- The timeline is different when changing from the tree different directories `losa.html/nuraxi.html/sarbana.html` giving you the feeling of a interactive site.
+  The timeline with the content for mobile screen changes position from row to column giving you the same result but saving much space.
+
+
+**Facts page**
 
 
 
 
+
+
+**Palette**
+- I used a gradient of greys all over the pages, from white to black but mainly grey. Even a dull gray give the feeling to stay in contact with these ancient "rocks".
+- used [Paletton](https://paletton.com)
 ## Responsive
 - The site is changing at different sizes despite having only 1 media query it is pretty responsive for any kind of device.
 
