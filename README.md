@@ -1,6 +1,9 @@
-# [Nuraghe's]
+# [Nuraghe's](https://valerios05.github.io/pj1nuraghe/)
 
-Welcome to [Nuraghe's]! This repository hosts the source code and content for my historical website. Here, we aim to provide a rich and immersive experience for exploring and learning about the ancient structure of Sardinia well known as Nuraghe
+Welcome to Nuraghe's! This repository hosts the source code and content for my historical website. Here, we aim to provide a rich and immersive experience for exploring and learning about the ancient structure of Sardinia well known as Nuraghe
+
+## Find here the link to the site!
+[Nuraghe's](https://valerios05.github.io/pj1nuraghe/)
 
 ## Getting Started
 **Explore the Code:** Familiarize yourself with the structure of the codebase. The main files and directories you'll be working with include:
