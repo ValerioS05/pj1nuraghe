@@ -48,6 +48,9 @@ mettere immagine
 ### 4. Accessibility Features
    - Ensure accessibility for all users, including those with disabilities, by providing alternative text descriptions for images and video
 
+### 5. Active timeline
+    - A timeline that changes depending on the page you find yourself in, also strnghten the understanding of the position you are at the moment, enhancing also the content.
+
 ## User Stories
 
 - **history enthusiast**, I want to explore the origins and significance of nuraghes, so that I can deepen my understanding of ancient Sardinian civilization and its architectural marvels.
@@ -64,7 +67,7 @@ mettere immagine
 - **visually impaired user**, I want the website to provide accessible content and alternative text descriptions for images of nuraghes, so that I can engage with the information and learn about these ancient structures through screen readers or other assistive technologies.
 
 
-## Here a Practical way to explain what my idea was at the beginning
+## Here is a Practical way to explain what my idea was at the beginning
 ![screenshot of what was my idea at the beginning for desktop and tablets](assets/images/screendesk.png)
 ![screenshot of what was my idea at the beginning for mobile](./assets/images/screenmobile.png)
 
@@ -72,16 +75,18 @@ mettere immagine
 
 **Report Issues:** If you encounter any bugs, issues, or have suggestions for improvements, please open an issue on our GitHub repository. Be sure to provide detailed information about the problem or suggestion.
 
-[Nuraghe`s] is designed to be user-friendly and intuitive. Simply navigate to the website URL to start exploring. Here are some key features and functionalities:
 
-
-- **Palette:** I used a gradient of greys all over the pages, from white to black but mainly grey. Even a dull gray give the feeling to stay in contact with these ancient rocks.
+- **Palette:** I used a gradient of greys all over the pages, from white to black but mainly grey. Even a dull gray give the feeling to stay in contact with these ancient "rocks".
 - **structure:** The site starting from the index to finish with the signup page find a simple structure from top to bottom ,very linear with loads of content for the mobile version.
 In the desktop I focused more on the media where you can find immersive pictures, a more enlarged structure for the other pages to get a better look on details, without loosing the overall original structure from the index page.
 
 
 ## Validation
 - Achieved using validator from W3.org for both [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
+
+![screenshot of succesful validation HTML](./assets/images/validation%20html.png)
+
+![screenshot of succesful validation CSS](./assets/images/valida-css.png)
 
 ## Contact me
 
