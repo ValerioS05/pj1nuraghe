@@ -31,15 +31,14 @@ mettere immagine
 
 - `README.md`: This README file for guidance and a walktrough.
 
-
 ## Features
 
 ### 1. Favicon
    - favicon created from [favicon.io](https://favicon.io/favicon-generator/)
    - View details about each nuraghe, including location, history, and architectural features.
 
-### 2. Virtual Tours
-   - Experience virtual tours of nuraghes, allowing users to navigate through these ancient structures from the comfort of their own homes with images and video.
+### 2. Virtual Tour
+   - Experience virtual tour of nuraghes, allowing users to immerse in these ancient structures from the comfort of their own homes with images and video.
 
 ### 3. Educational Resources
    - Access range of educational resources, including article, UNESCO link, and content, to learn more about the history and significance of nuraghes.
@@ -47,8 +46,7 @@ mettere immagine
 
 
 ### 4. Accessibility Features
-   - Ensure accessibility for all users, including those with disabilities, by providing alternative text descriptions for images and implementing keyboard navigation features.
-
+   - Ensure accessibility for all users, including those with disabilities, by providing alternative text descriptions for images and video
 
 ## User Stories
 
@@ -80,6 +78,10 @@ mettere immagine
 - **Palette:** I used a gradient of greys all over the pages, from white to black but mainly grey. Even a dull gray give the feeling to stay in contact with these ancient rocks.
 - **structure:** The site starting from the index to finish with the signup page find a simple structure from top to bottom ,very linear with loads of content for the mobile version.
 In the desktop I focused more on the media where you can find immersive pictures, a more enlarged structure for the other pages to get a better look on details, without loosing the overall original structure from the index page.
+
+
+## Validation
+- Achieved using validator from W3.org for both [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
 ## Contact me
 
