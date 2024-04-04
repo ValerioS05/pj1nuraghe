@@ -180,6 +180,12 @@ main {
     margin-top: 10px;
 }
 
+/*credits unde images */
+
+.center {
+    margin: 10px auto;
+    text-align: center;
+}
 
 
 .nurname {
@@ -191,7 +197,7 @@ main {
     color: white;
     padding: 10px 0;
 }
-
+/*article */
 article {
     background-color:rgb(185, 185, 185); 
     padding: 20px;
@@ -477,7 +483,7 @@ a {
 /*footer*/
 
 footer {
-    background-color: rgb(146, 141, 141);
+    background-color: rgb(175, 172, 172);
     border: 2px double black;
     color: black;
     margin-top: 1px;
