@@ -22,6 +22,7 @@ body {
     font-family: "Open Sans", sans-serif;
     background-color: white;
     overflow-x: hidden;
+    background-color: rgba(242, 248, 248, 0.5);
 }
 
 h1,
@@ -122,7 +123,7 @@ main {
 #hero-image {
     width: 100%;
     height: 500px;
-    background: url(../images/hero-imagep1.jpg) top center/cover no-repeat;
+    background: url(../images/newhero.jpg) top center/cover no-repeat;
     position: relative;
 }
 
@@ -132,13 +133,13 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 2px double black;
+    
 }
 /*general header*/
 #main-content h2,
 #main-content h3 {
     text-align: center;
-    background-color: rgb(82, 168, 197);
+    background-color: rgb(25, 108, 135);
     padding: 7px;
     color: white;
 
@@ -261,7 +262,7 @@ a {
     color: white;
     border-radius: 0 50px 0 50px;
     background: url(../images/pexels-life-of-pix-8892.jpg) no-repeat center/cover;
-    border-top: 10px solid rgb(82, 168, 197);
+    border-top: 10px solid rgb(25, 108, 135);
 
 
 }
@@ -290,7 +291,7 @@ a {
 /*nuraxi/sarbana/losa page and video*/
 #about h2 {
     text-align: center;
-    background-color: rgb(82, 168, 197);
+    background-color: rgb(25, 108, 135);
     color: white;
     width: 100%;
     padding: 10px 0;
@@ -342,7 +343,7 @@ a {
 #ten-facts h2 {
     text-align: center;
     margin-bottom: 20px;
-    background-color: rgb(82, 168, 197);
+    background-color: rgb(25, 108, 135);
     color: #f9f9f9;
     box-shadow: 0 5px 5px black;
 }
@@ -376,7 +377,7 @@ a {
 }
 
 #videosec h2 {
-    background-color: rgb(82, 168, 197);
+    background-color: rgb(25, 108, 135);
     color: #f9f9f9;
     margin: 5px 0;
     border: 1px double black;
@@ -410,13 +411,17 @@ a {
 /*top part of the form*/
 #user-info {
     background: transparent;
-    background-color: rgba(82, 168, 197,0.8);
+    background-color: rgba(19, 100, 126,0.8);
     text-align: center;
     box-shadow: 0 0 20px black;
 }
 
+#user-info label {
+    color: white;
+}
+
 #signup p {
-    color: #020202;
+    color: #f8f2f2;
     width: 100%;
     height: auto;
     margin: 10px 0 20px 0;
@@ -429,7 +434,7 @@ a {
 
 .input-f {
     background: transparent;
-    color: #020202;
+    color: #faf9f9;
     width: 100%;
     max-width: 100%;
     height: 45px;
@@ -447,7 +452,7 @@ a {
 /*container*/
 #user-opt {
     background: transparent;
-    background-color: rgba(82, 168, 197,0.8);
+    background-color: rgba(82, 168, 197,0.7);
     text-align: center;
     box-shadow: 0 0 20px black;
     padding:30px 0;
@@ -460,6 +465,7 @@ a {
 #user-opt label {
     margin: 10px auto;
     padding:10px 10px;
+    color: #f8f2f2;
 }
 /*option first look*/
 #sub {
@@ -509,9 +515,8 @@ a {
 
 footer {
     background-color: rgb(191,230,252);
-    border: 2px double black;
     color: black;
-    margin-top: 1px;
+    margin-top: 5px;
 }
 /*display way for footer*/
 #footer-list {
