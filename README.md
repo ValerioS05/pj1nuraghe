@@ -14,7 +14,7 @@ Welcome to Nuraghe's! This repository hosts the source code and content for my h
 - `index.html`: The main HTML file that serves as the entry point to the website.
 
 
-![screenshot of the home page](/assets/images/newhero.jpg)
+![screenshot of the home page](/assets/images/newhome.png)
 
 
 
