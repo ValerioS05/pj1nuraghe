@@ -233,7 +233,7 @@ a {
 }
 
 
-/*main content section for nuraxi.html*/
+/*main content section for nuraxi.html-sarbana and losa*/
 
 
 /*timeline*/
@@ -313,8 +313,16 @@ a {
     list-style-type: none;
 }
 
+/*links to the other pages under content*/
+.re-link {
+    padding: 10px;
+    margin: 10px;
+}
 
-
+.re-link a {
+    padding: 10px;
+    margin:10px;
+}
 
 /*facts page*/
 
