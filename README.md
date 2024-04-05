@@ -14,7 +14,7 @@ Welcome to Nuraghe's! This repository hosts the source code and content for my h
 - `index.html`: The main HTML file that serves as the entry point to the website.
 
 
-![screenshot of the home page](/assets/images/Screenshot-home-page.png)
+![screenshot of the home page](/assets/images/newhero.jpg)
 
 
 
@@ -29,7 +29,7 @@ Welcome to Nuraghe's! This repository hosts the source code and content for my h
 
 
   
-![screenshot of nuraxi page](/assets/images/nuraxi%20page.png)
+![screenshot of nuraxi page](/assets/images/newtime.png)
 
 
 
@@ -42,7 +42,7 @@ Welcome to Nuraghe's! This repository hosts the source code and content for my h
 
 
 
-![screenshot of the facts page](/assets/images/facts-page.png)
+![screenshot of the facts page](/assets/images/newvideo.png)
 
 
 
@@ -53,7 +53,7 @@ Welcome to Nuraghe's! This repository hosts the source code and content for my h
 
 
 
-![screenshot of form in signup.html](/assets/images/signup.png)
+![screenshot of form in signup.html](/assets/images/newform.png)
 
 
 
@@ -90,7 +90,7 @@ making sure you know where you are at the moment!.
 
 
 
-![screenshot of form in header and navbar](/assets/images/header.png)
+![screenshot of navbar](/assets/images/newhead.png)
 
 
 
@@ -101,7 +101,7 @@ making sure you know where you are at the moment!.
 
 
 
-![picture of footer](/assets/images/footer.png)
+![picture of footer](/assets/images/newfoot.png)
 
 
 
@@ -192,7 +192,7 @@ In the desktop/tablet I focused more on the media where you can find immersive p
 - Tried on Galaxy s22+ ,Galaxy tab a5/+ Ipad air, iPhone x, Mac book , Desktop an Laptop 
 - Used Chrome, Firefox, Edge
 
-![picture of responsive page](/assets/images/responsive.png)
+![picture of responsive page](/assets/images/newmockup.png)
 
 
 ## Validation
